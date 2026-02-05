@@ -21,7 +21,7 @@ export const Contact = () => {
 
     try {
       // 1. Save to Supabase
-      const response = await fetch(`https://${projectId}.supabase.co/functions/v1/make-server-461311e2, {
+      const response = await fetch(`https://${projectId}.supabase.co/functions/v1/make-server-461311e2` , {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
