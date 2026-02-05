@@ -1,33 +1,33 @@
 import React from 'react';
 import { motion } from 'motion/react';
 import { Info } from 'lucide-react';
-import ceramic1 from "figma:asset/009a346cdcf7c88336ec47668edffcb96cb1cec0.png";
-import ceramic2 from "figma:asset/7e85e22decc7e8eb59191c2d3f24c0e869da0537.png";
-import ceiling1 from "figma:asset/7c6bf9c84d923a6924a0fb5e02c70121a4268f76.png";
-import meson1 from "figma:asset/a2a9ee773c12255cb4a4b000f74ae67043160513.png";
-import meson2 from "figma:asset/45fd8a73cf7caf2eae5d4bb1fcdcfaa0556e6d6a.png";
+import ceramica from "../../assets/ceramica.png";
+import ceramica1 from "../../assets/ceramica1.png";
+import ceilofalso from "../../assets/cielofalso.png";
+import meson from "../../assets/meson.png";
+import meson2 from "../../assets/meson2.png";
 
 const projects = [
   {
-    image: ceramic1,
+    image: ceramica,
     category: 'Cerámica',
     title: 'Pisos de Porcelanato XL',
     span: 'md:col-span-2'
   },
   {
-    image: ceramic2,
+    image: ceramica1,
     category: 'Cerámica',
     title: 'Diseño Central en Pisos',
     span: 'md:col-span-1'
   },
   {
-    image: ceiling1,
+    image: ceilofalso,
     category: 'Cielo Falso',
     title: 'Techo Falso con Iluminación LED',
     span: 'md:col-span-1'
   },
   {
-    image: meson1,
+    image: meson,
     category: 'Mesones',
     title: 'Cocina Integral de Cuarzo',
     span: 'md:col-span-1'
